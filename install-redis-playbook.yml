@@ -1,4 +1,4 @@
 - hosts: all
   gather_facts: true
   roles:
-    - role: geerlingguy.redis
+    - geerlingguy.redis
