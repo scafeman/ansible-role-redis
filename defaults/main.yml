@@ -33,7 +33,7 @@ redis_appendfsync: "everysec"
 redis_includes: []
 
 # Require authentication to Redis with a password.
-redis_requirepass: ""
+redis_requirepass: "{{ morpheus['customOptions']['RedisPassword'] }}"
 
 # Disable certain Redis commands for security reasons.
 redis_disabled_commands: []
